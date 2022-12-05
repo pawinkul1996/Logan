@@ -1,0 +1,27 @@
+# Ignore sensitive local files
+github_accounts.csv
+project_description.txt
+temp.txt
+
+# Node / frontend
+node_modules/
+dist/
+build/
+.env
+.env.*
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+
+# Solidity
+contracts/artifacts/
+contracts/cache/
+.typechain/
+
+# Python / misc
+__pycache__/
+.venv/
