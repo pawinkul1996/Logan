@@ -17,3 +17,4 @@ export const __fmt=(n)=>Number(n||0);
 \nexport const d92=92;
 \nexport const d98=98;
 \nexport const d104=104;
+\nexport const d110=110;
