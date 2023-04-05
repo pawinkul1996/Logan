@@ -10,3 +10,4 @@ contract LSDToken is ERC20, Ownable {
     function mint(address to, uint256 a) external { if (msg.sender != authorizedMinter) revert NotMinter(); _mint(to,a);} 
     function burnFrom(address from, uint256 a) external { if (msg.sender != authorizedMinter) revert NotMinter(); _burn(from,a);} 
 }
+\n// k 4
