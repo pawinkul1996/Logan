@@ -16,3 +16,4 @@ contract LSDToken is ERC20, Ownable {
 \n// k 22
 \n// k 28
 \n// k 34
+\n// k 40
