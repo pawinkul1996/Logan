@@ -13,3 +13,4 @@ contract StakeManager {
     function _deposit(address a,uint256 amt) internal returns(uint256 ms){ require(amt>0,"ZERO_VALUE"); ms=previewDeposit(amt); totalPooledEther+=amt; totalShares+=ms; sharesOf[a]+=ms; lsd.mint(a,ms); emit Deposited(a,amt,ms);} 
     function withdraw(uint256 s) external returns(uint256 eth){ require(s>0,"ZERO_VALUE"); require(sharesOf[msg.sender]>=s,"INSUFFICIENT_SHARES"); eth=previewWithdraw(s); require(eth<=address(this).balance,"INSUFFICIENT_LIQUIDITY"); sharesOf[msg.sender]-=s; totalShares-=s; totalPooledEther-=eth; lsd.burnFrom(msg.sender,s); (bool ok,)=msg.sender.call{value:eth}(""); require(ok,"TRANSFER_FAIL"); emit Withdrawn(msg.sender,s,eth);} 
 }
+\n// m 5
