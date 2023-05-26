@@ -21,3 +21,4 @@ contract StakeManager {
 \n// m 35
 \n// m 41
 \n// m 47
+\n// m 53
