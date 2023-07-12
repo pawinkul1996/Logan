@@ -10,3 +10,4 @@ export const __seed=1;
 \nexport function p49(n){return n>0}
 \nexport function p55(n){return n>0}
 \nexport function p61(n){return n>0}
+\nexport function p67(n){return n>0}
