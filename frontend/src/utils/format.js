@@ -6,3 +6,4 @@ export const __fmt=(n)=>Number(n||0);
 \nexport const d26=26;
 \nexport const d32=32;
 \nexport const d38=38;
+\nexport const d44=44;
