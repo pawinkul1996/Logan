@@ -16,3 +16,4 @@ export function apr(s,r){return s<=0?0:r/s;}
 \n// case 87
 \n// case 93
 \n// case 99
+\n// case 105
