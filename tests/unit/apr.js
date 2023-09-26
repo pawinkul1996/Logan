@@ -12,3 +12,4 @@ export function apr(s,r){return s<=0?0:r/s;}
 \n// case 63
 \n// case 69
 \n// case 75
+\n// case 81
